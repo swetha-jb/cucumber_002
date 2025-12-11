@@ -18,7 +18,7 @@ public class FlipkartSteps {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--user-data-dir=/tmp/selenium-profile-" + System.currentTimeMillis());
         options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
+        //options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--headless=new");  // optional
         options.addArguments("--disable-gpu");
 
